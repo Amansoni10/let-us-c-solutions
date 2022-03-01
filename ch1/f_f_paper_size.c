@@ -11,4 +11,6 @@ A0, A1, A2, … A8.
 
 int main() {
 
+    printf("sdlfk");
+
 }
