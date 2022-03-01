@@ -11,6 +11,7 @@ int main()
 {
 	int a,b,c,d,e , agr ;
 	float per;
+	
 	printf("Enter Marks of subject 1 \n ");
 	scanf("%d",&a);
 	
@@ -30,8 +31,9 @@ int main()
 	
 	per = agr/5;
 	
-	printf("aggregate marks of stufent is %d \n", &agr);
-	printf("percent of student is %d\n", &per);
+	printf("aggregate marks of stufent is %d \n", agr);
+	printf("percent of student is %f\n", per);
 	
 	return 0;
 }
+
