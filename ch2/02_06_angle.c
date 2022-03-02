@@ -8,11 +8,14 @@ int main()
 
 {
 
-	float  angle,s,c,t;
-	
+	float  angle,s,c,t, pi ;
+	pi= 3.14159;
 	
 	printf("Enter the vale of degree\n");
 	scanf("%f",&angle);
+	
+	angle= angle*(pi/180);
+	
 	
 	s= sin(angle);
 	c= cos(angle);
