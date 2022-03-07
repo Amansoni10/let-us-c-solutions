@@ -11,9 +11,9 @@ int main()
 {
 	int N,p,q,r,s,t,u,sum;
 	
-	printf("Enter the number of notes ");
-	scanf("%d",&N);
-	
+//	printf("Enter the number of notes ");
+//	scanf("%d",&N);
+	N=5;
 	p=N/100;
 	N=N%100;
 	q=N/50;
